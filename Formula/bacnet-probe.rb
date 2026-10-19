@@ -2,28 +2,28 @@
 class BacnetProbe < Formula
   desc "Discover, browse, watch and export BACnet/IP, IPv6 and SC devices"
   homepage "https://github.com/regalium-os/bacnet-rs/tree/main/tools/bacnet-probe"
-  version "1.0.0"
+  version "1.0.1"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/regalium-os/bacnet-rs/releases/download/bacnet-probe-v1.0.0/bacnet-probe-1.0.0-aarch64-apple-darwin.tar.gz"
-      sha256 "723f50b47703c4787bd2391cb3bb3881fbd512b0a3be909bb7a5987a009c3fcf"
+      url "https://github.com/regalium-os/bacnet-rs/releases/download/bacnet-probe-v1.0.1/bacnet-probe-1.0.1-aarch64-apple-darwin.tar.gz"
+      sha256 "829565ca1e6ff0897abff2ffa918d594a0f107e599397be7a1509dc91c31c581"
     end
     on_intel do
-      url "https://github.com/regalium-os/bacnet-rs/releases/download/bacnet-probe-v1.0.0/bacnet-probe-1.0.0-x86_64-apple-darwin.tar.gz"
-      sha256 "88bf1ce02dd049823eebdb0478ccb40f1d3d5486dc4cd22c7be256cf48721763"
+      url "https://github.com/regalium-os/bacnet-rs/releases/download/bacnet-probe-v1.0.1/bacnet-probe-1.0.1-x86_64-apple-darwin.tar.gz"
+      sha256 "d5d1a38b1e389753698cc577e35fab805206a3d53c5ce481776ca9c887a56fbc"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/regalium-os/bacnet-rs/releases/download/bacnet-probe-v1.0.0/bacnet-probe-1.0.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "5404a303768cbb532657866cbab41f02856f8759d867b626617dbda7989c8970"
+      url "https://github.com/regalium-os/bacnet-rs/releases/download/bacnet-probe-v1.0.1/bacnet-probe-1.0.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "76d9b79d4112084ce97665d2585186edbcd934180aa6d62f3619d8e9917d1ce6"
     end
     on_intel do
-      url "https://github.com/regalium-os/bacnet-rs/releases/download/bacnet-probe-v1.0.0/bacnet-probe-1.0.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "9750e5f75dab849d4ebed9984215540ed5de2dcfe48b270bbf910c3fdac318cc"
+      url "https://github.com/regalium-os/bacnet-rs/releases/download/bacnet-probe-v1.0.1/bacnet-probe-1.0.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "8cdf2aaa790b495699c6b12a79353ef8585cc023701a3da3840fe52ef1c41ad2"
     end
   end
 
