@@ -2,28 +2,28 @@
 class BacnetProbe < Formula
   desc "Discover, browse, watch and export BACnet/IP, IPv6 and SC devices"
   homepage "https://github.com/regalium-os/bacnet-rs/tree/main/tools/bacnet-probe"
-  version "1.0.1"
+  version "1.2.2"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/regalium-os/bacnet-rs/releases/download/bacnet-probe-v1.0.1/bacnet-probe-1.0.1-aarch64-apple-darwin.tar.gz"
-      sha256 "829565ca1e6ff0897abff2ffa918d594a0f107e599397be7a1509dc91c31c581"
+      url "https://github.com/regalium-os/bacnet-rs/releases/download/v1.2.2/bacnet-probe-1.2.2-aarch64-apple-darwin.tar.gz"
+      sha256 "3ad578d07a9bc3bd2c55214c1d5f14d6735079c28b91950cb80b6ab650bfe2a6"
     end
     on_intel do
-      url "https://github.com/regalium-os/bacnet-rs/releases/download/bacnet-probe-v1.0.1/bacnet-probe-1.0.1-x86_64-apple-darwin.tar.gz"
-      sha256 "d5d1a38b1e389753698cc577e35fab805206a3d53c5ce481776ca9c887a56fbc"
+      url "https://github.com/regalium-os/bacnet-rs/releases/download/v1.2.2/bacnet-probe-1.2.2-x86_64-apple-darwin.tar.gz"
+      sha256 "69a244d54ab87e99e33398d705163d290b6fa33f3ad9f938fbda5ed1e2b97bfc"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/regalium-os/bacnet-rs/releases/download/bacnet-probe-v1.0.1/bacnet-probe-1.0.1-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "76d9b79d4112084ce97665d2585186edbcd934180aa6d62f3619d8e9917d1ce6"
+      url "https://github.com/regalium-os/bacnet-rs/releases/download/v1.2.2/bacnet-probe-1.2.2-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "06aff82b233e7e92e60d634c1a674d434b94632c68cd4ac86cecdc944d27e7e8"
     end
     on_intel do
-      url "https://github.com/regalium-os/bacnet-rs/releases/download/bacnet-probe-v1.0.1/bacnet-probe-1.0.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "8cdf2aaa790b495699c6b12a79353ef8585cc023701a3da3840fe52ef1c41ad2"
+      url "https://github.com/regalium-os/bacnet-rs/releases/download/v1.2.2/bacnet-probe-1.2.2-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "934934ec97d691bd821f2b770b44905fb547f3615de827aeb74f4121cfe4f400"
     end
   end
 
